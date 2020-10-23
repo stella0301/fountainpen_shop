@@ -1,0 +1,195 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+.transition{
+    transition: .5s;
+}
+.pointer{
+    cursor: pointer;
+}
+.goods_wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.goods_font-size_12{
+    font-size: 12px; 
+}
+.goods_font-size_14{
+    font-size: 14px; 
+}
+.goods_font-size_15{
+    font-size: 15px; 
+}
+.goods_font-size_16{
+    font-size: 16px; 
+}
+.goods_font-size_20{
+    font-size: 20px; 
+}
+.goods_font-weight_600{
+    font-weight: 600;
+}
+
+.goods_fixed{
+    position: fixed;
+}
+
+.display_none{
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+}
+/* --------------------svg變色--------------------- */
+
+.path:hover polygon, .path:hover rect {
+    fill:  #B8926B;
+}
+.icon_heart_b:hover path,.icon_car_b:hover path,.car_icon:hover path,.heart_icon:hover path,.filter_op:hover path {
+    fill:  #B8926B;
+}
+.icon_heart>path{
+    fill:  #B8926B;
+}
+
+
+}
+/* ---------------------彈出視窗--------------------- */
+
+.shopcar_heart_black{
+    width: 100vw;
+    background: rgba(0,0,0,.8);
+    min-height: 100vh;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    z-index: 900;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0;
+    display:none; 
+}
+.heart_window.active,.shopcar_window.active{
+    display: flex;
+    opacity: 1;
+}
+/* .shopcar_list_black.active{
+    display: flex;
+    opacity: 1;
+} */
+.window_card{
+    width: 350px;
+    min-height: 200px;
+     background:#fff;
+     border-radius: 4px;
+     padding: 20px 30px;
+     text-align: center;
+}
+.window_card>p{
+    margin: 10px auto;
+}
+
+.window_card>span{
+    color: #B8926B;
+}
+.window_card>div{
+    display: flex;
+    justify-content: space-between;
+}
+input{  
+	background:none;  
+	outline:none;  
+    border:0px;
+}
+
+.black_botton{
+    border:0;
+    background-color:#14191D;
+    color:#fff;
+    border-radius:4px;
+    width:100%;
+    height:35px;
+    margin:  10px 15px 10px 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    transition: .3s;
+    
+}
+.gray_botton{
+        border:0;
+      background-color:#9DA4A7;
+      color:#fff;
+      border-radius:4px;
+      width:100%;
+      height:35px;
+      margin:  10px 0 15px 10px;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 16px;
+      transition: .3s;
+    }
+/* .black_botton:focus{
+    border-color: #EEC84D;  
+} */
+.black_botton:hover{
+    background-color:#B8926B;   
+}
+.gray_botton:hover{
+    background-color:#14191D;
+}
+
+/* ---------------------內容--------------------- */
+
+.goods_nav{
+    color:#fff;
+    z-index: 10;
+}
+
+.goods_nav>div{
+    padding: 7px 20px;
+    margin: 0 0;
+}
+
+.goodds_main_content{
+    margin: 80px 0 0 0;
+    width: 100%;
+    min-height: 1000px;
+    background: skyblue;
+    padding:0px 20px ;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row;     */
+
+}
+
+/* ---------------- */
+
+
+@media screen and (max-width: 992px) {
+    .shop_card{
+        width: 22%;
+    }
+}
+@media screen and (max-width: 768px) {
+.shop_card{
+        width: 45%;
+        position: relative;
+    }
+.shopcar_botton{
+display: block;
+    }
+.shop_card_content_icon{
+    position: absolute;
+    top:5px;
+    right: 5px;
+}
+.icon_car_b{
+    display: none;
+}
+
+}
+@media screen and (max-width: 414px) {
+   
+}

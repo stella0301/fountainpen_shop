@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>product</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Sans+TC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/jquery.range.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+    /* header{
+      width: 100%;
+      height: 50px;
+      background-color:#fff;
+      position: fixed;
+  } */
+    body {
+      background: url(images/texture-white.png) center center repeat;
+      background-color: #E7EBEC;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="product_bread">
+    <div class="shop_wrapper product_bread_text ">
+      <a href="shop.html">首頁</a> 》<a href="shop.html">商品店鋪</a> 》<a href="product.html">【派克Parker 】 新IM經典系列 特別版 鋼筆(Blue
+        Origin 藍色起源)</a>
+    </div>
+  </nav>
+  <header>
+    <nav>
+      <ul class="nav_pc">
+        <li><a href=""><img class="nav_logo_black" src="images/logo_black.svg"></a></li>
+        <li><a class="nav_text" href="">關於我們</a></li>
+        <li><a class="nav_text" href="">鋼筆的故事</a></li>
+        <li><a class="nav_text" href="shop.html">商品店鋪</a></li>
+        <li><a class="nav_text" href="">最新活動</a></li>
+        <li>
+          <a href=""><img class="nav_icon" src="images/search.svg"></a>
+          <a href=""><img class="nav_icon" src="images/account.svg"></a>
+          <a href=""><img class="nav_icon" src="images/shopcar_black.svg"></a>
+        </li>
+      </ul>
+      <ul class="nav_phone">
+        <li><img class="nav_menu" src="images/menu.svg" alt=""></li>
+        <li><a href=""><img class="nav_icon nav_side_icon" src="images/search.svg" alt=""></a></li>
+        <li><a href=""><img class="nav_logo_short" src="images/logo_short.svg" alt=""></a></li>
+        <li><a href=""><img class="nav_icon nav_search_icon" src="images/account.svg" alt=""></a></li>
+        <li><a href=""><img class="nav_icon" src="images/shopcar_black.svg" alt=""></a></li>
+      </ul>
+      <div class="nav_menu_content">
+        <div class="nav_inside">
+          <div class="nav_logo"><img src="images/logo_short.svg" alt="">
+            <div class="nav_off">
+              <div class="nav_off_line nav_left"></div>
+              <div class="nav_off_line nav_right"></div>
+            </div>
+          </div>
+          <div class="nav_menu_text">
+            <ul>
+              <li><a href="">首頁</a></li>
+              <li><a href="">關於我們</a></li>
+              <li><a href="">鋼筆的故事</a></li>
+              <li><a href="">商品店鋪</a></li>
+              <li><a href="">最新活動</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav_side"></div>
+      </div>
+      <div class="nav_search">
+        <div class="nav_search_inside">
+          <div class="nav_triangle_position">
+            <div class="nav_triangle_left"></div>
+            <div class="nav_triangle"></div>
+            <div class="nav_triangle_right"></div>
+          </div>
+          <div class="nav_search_inside_box">
+            <form action="">
+              <input type="text" placeholder="想找什麼?">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="nav_account">
+        <div class="nav_account_inside">
+          <div class="nav_triangle_position2">
+            <div class="nav_triangle_left2"></div>
+            <div class="nav_triangle2"></div>
+            <div class="nav_triangle_right2"></div>
+          </div>
+          <div class="nav_account_inside_box">
+            <ul>
+              <li><a href="">登入</a></li>
+              <li><a href="">查看訂單</a></li>
+              <li><a href="">追蹤清單</a></li>
+              <li><a href="">註冊</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ----------------彈出視窗--------------------- -->
+  <div class="shopcar_heart_black heart_window">
+    <div class="window_card product_font-size_14">
+      <p>已成功將</p>
+      <span>
+        【派克Parker 】新IM經典系 列特別版 鋼筆
+        (Blue Origin 藍色起源)
+      </span>
+      <p> 加入追蹤清單！</p>
+      <div>
+        <input class="product_black_botton product_blackBtn_35" type="button" value="檢視追蹤清單" onclick="">
+
+      </div>
+
+    </div>
+  </div>
+  <div class="shopcar_heart_black shopcar_window">
+    <div class="window_card product_font-size_14">
+      <p>已成功將</p>
+      <span>
+        【派克Parker 】新IM經典系 列特別版 鋼筆
+        (Blue Origin 藍色起源)
+      </span>
+      <p> 加入購物車！</p>
+      <div>
+        <input class="product_black_botton product_blackBtn_35" type="button" value="檢視購物車" onclick="">
+        <input class="product_gray_botton" type="button" value="結帳" onclick="">
+      </div>
+
+    </div>
+  </div>
+  <!-- ----------------彈出視窗--------------------- -->
+  <div class="product_wrapper ">
+    <div class="product_main_content">
+      <!-- ----------------商品照片--------------------- -->
+      <div class="product_biggroup ">
+        <div id="prodMainImg">
+          <div class="product_mainphoto" id="prodImgDefault">
+            <img id="mainpic" class="product_cover-fit" src="images/pk_im_sma_01.jpg" alt="">
+          </div>
+          <!-- <button id="prodImgZOOMBig" class="prodImgZOOMBtn">放大</button> -->
+          <div id="prodImgZOOM">
+            <div id="prodImgZOOMInner">
+              <img id="prodImgZOOMInnerChange" class="draggable ui-widget-content ui-draggable"
+                src="images/pk_im_sma_01.jpg" alt="">
+            </div>
+
+            <!-- <button id="prodImgZOOMBack" class="prodImgZOOMBtn">返回</button> -->
+          </div>
+
+        </div>
+
+        <ul class="product_smallgroup">
+          <li class="product_smallphoto pointer active"><img class="product_cover-fit" src="images/pk_im_sma_01.jpg"
+              alt=""></li>
+          <li class="product_smallphoto pointer"><img class="product_cover-fit" src="images/pk_im_sma_02.jpg" alt="">
+          </li>
+          <li class="product_smallphoto pointer"><img class="product_cover-fit" src="images/pk_im_sma_03.jpg" alt="">
+          </li>
+          <li class="product_smallphoto pointer"><img class="product_cover-fit" src="images/pk_im_sma_04.jpg" alt="">
+          </li>
+          <li class="product_smallphoto pointer"><img class="product_cover-fit" src="images/pk_im_sma_05.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+      <!-- ----------------商品資訊--------------------- -->
+      <div class="product_biggroup product_marginLeft">
+        <h2 class="product_name ">【派克Parker 】 新IM經典系列特別版 鋼筆
+          (Blue Origin 藍色起源)</h2>
+        <h3 class="product_price ">$NT.3200</h3>
+        <ul class="product_text product_font-size_15">
+          <li>
+            品牌： <span>品牌名稱</span>
+          </li>
+          <li>
+            商品型號： <span>XXXXXX</span>
+          </li>
+          <li>
+            庫存數量： <span>9</span>
+          </li>
+          <li>
+            筆尖尺寸： <span>F</span>
+          </li>
+        </ul>
+
+        <div class="product_number_control">
+          <form id='myform' method='POST' action='#'>
+            <!-- <label for="">qty </label> -->
+            <input type='button' value='–' class='edit-qty qtyminus' field='quantity' />
+            <input type='number' name='quantity' value='1' min="1" max="10" class='input-text qty' />
+            <input type='button' value='+' class='edit-qty qtyplus' field='quantity' />
+          </form>
+        </div>
+
+
+        <!-- <div class="product_btngroup">
+            <div class="product_number_control">
+              <span class="edit-qty minus" onclick="minusQty('qty')">–</span>
+              <input type="number" name="qty" id="qty" maxlength="12" value="1" title="個数" class="input-text qty" data-validate="{&quot;required-number&quot;:true,&quot;validate-item-quantity&quot;:{&quot;minAllowed&quot;:1,&quot;maxAllowed&quot;:10000}}">
+              <span class="edit-qty plus " onclick="plusQty('qty')">+</span>
+            </div>
+          </div> -->
+
+        <div class="product_btngroup ">
+          <input class="product_shopcarBtn product_black_botton product_blackBtn_45 " type="button" value="加入購物車"
+            onclick="">
+          <div class="product_heartgroup">
+            <img class="pointer product_icon_45" id="follow_black" src="images/follow_black.svg" alt="">
+            <img class="pointer product_icon_45 product_icon_none" id="follow_yellow" src="images/follow_yellow.svg"
+              alt="">
+          </div>
+
+        </div>
+        <div class="product_social">
+          <p>分享到</p>
+          <ul class="list-unstyled d-flex">
+
+            <div class="product_gplusGroup productTooltip ">
+              <span class="tooltiptext">Google+</span>
+              <li class="product_social_icon li_yellow ">
+                <a href=""><img class="product_icon_16" src="images/gplus_2.svg" alt=""></a>
+              </li>
+              <li class="product_social_icon product_icon_none li_lightYellow">
+                <a href=""><img class="product_icon_16" src="images/gplus_2_ly.svg" alt=""></a>
+              </li>
+            </div>
+
+            <div class="product_twitterGroup productTooltip">
+              <span class="tooltiptext">Twitter</span>
+              <li class="product_social_icon li_yellow">
+                <a href=""><img class="product_icon_16" src="images/twitter_2.svg" alt=""></a>
+              </li>
+              <li class="product_social_icon product_icon_none li_lightYellow">
+                <a href=""><img class="product_icon_16" src="images/twitter_2_ly.svg" alt=""></a>
+              </li>
+            </div>
+
+            <div class="product_facebookGroup productTooltip">
+              <span class="tooltiptext">Facebook</span>
+              <li class="product_social_icon li_yellow">
+                <a href=""><img class="product_icon_16" src="images/facebook_2.svg" alt=""></a>
+              </li>
+              <li class="product_social_icon product_icon_none li_lightYellow">
+                <a href=""><img class="product_icon_16" src="images/facebook_2_ly.svg" alt=""></a>
+              </li>
+            </div>
+
+            <div class="product_igGroup productTooltip">
+              <span class="tooltiptext">Instagram</span>
+              <li class="product_social_icon li_yellow">
+                <a href=""> <img class=" product_icon_16" src="images/ig_2.svg" alt=""></a>
+              </li>
+              <li class="product_social_icon product_icon_none li_lightYellow">
+                <a href=""> <img class=" product_icon_16" src="images/ig_2_ly.svg" alt=""></a>
+              </li>
+            </div>
+
+            <div class="product_plurkGroup productTooltip ">
+              <span class="tooltiptext">Plurk</span>
+              <li class="product_social_icon li_yellow">
+                <a href=""><img class="product_icon_16" src="images/plurk_2.svg " alt=""></a>
+              </li>
+              <li class="product_social_icon product_icon_none li_lightYellow">
+                <a href=""><img class="product_icon_16" src="images/plurk_2_ly.svg " alt=""></a>
+              </li>
+            </div>
+
+
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------商品描述--------------------- -->
+  <div class="product_downGroup product_introduce">
+    <div class="product_wrapper">
+      <h2 class=" product_font-size_20">——商品描述——</h2>
+      <p class=" product_font-size_15">
+        高度專業，品質可靠。
+        派克IM兼顧時尚風格與實用品質，作為潛力無限的書寫伴侶。
+        派克IM秉持派克品牌出眾制筆的精神，採用耐用不銹鋼筆尖，每一處細節都傳遞出品質上乘的美好體驗。
+        <br>
+        派克 Parker 新IM經典系列 特別版 鋼筆（Blue Origin 藍色起源）
+        此款特別版Blue Origin筆款靈感來自於表面之下野心的無限力量。
+        該設計展現出可能性和潛力，
+        為渴望成功提供了框架，促使我們取得積極的成果。
+        <br>
+        筆身金屬材質<br>
+        筆尖 不銹鋼尖 F<br>
+        吸墨器與卡式墨水二用<br>
+        附原廠筆盒 吸墨器</p>
+    </div>
+  </div>
+  <div class="product_downGroup product_downGroup_slider ">
+    <div class="product_wrapper">
+      <h2 class=" product_font-size_20">——推薦商品——</h2>
+
+      <!-- ----------------slider--------------------- -->
+      <div class=" product_sliderBox" id="recommendPic">
+        <!-- <div class="recommendPic_word" >
+        <h2 class="product_recommendName ">【派克Parker 】 新IM經典系列特別版 鋼筆
+          (Blue Origin 藍色起源)</h2>
+          <h3 class="product_recommendPrice ">$NT.3200</h3>
+      </div> -->
+        <ul class="product_sliderBox_pic product_smallgroup_down ">
+          <li class="product_smallphoto_down">
+            <a href="">
+              <div class="productBox_image">
+                <p> 【拉米Lamy】ABC 楓木系列 鋼筆(藍色款)<br><strong>$NT.600</strong></p>
+                <img class="product_cover-fit" src="images/pk_im_sma_01.jpg" alt="">
+
+              </div>
+            </a>
+          </li>
+          <li class="product_smallphoto_down">
+            <a href="">
+              <div class="productBox_image">
+                <p>【拉米Lamy】ABC 楓木系列 鋼筆(藍色款)<br><strong>$NT.600</strong></p>
+                <img class="product_cover-fit" src="images/pk_im_sma_03.jpg" alt="">
+              </div>
+            </a>
+          </li>
+          <li class="product_smallphoto_down">
+            <a href="">
+              <div class="productBox_image">
+                <p>【拉米Lamy】ABC 楓木系列 鋼筆(藍色款)<br><strong>$NT.600</strong></p>
+                <img class="product_cover-fit" src="images/pk_im_sma_04.jpg" alt="">
+              </div>
+            </a>
+          </li>
+          <li class="product_smallphoto_down">
+            <a href="">
+              <div class="productBox_image">
+                <p>【拉米Lamy】ABC 楓木系列 鋼筆(藍色款)<br><strong>$NT.600</strong></p>
+                <img class="product_cover-fit" src="images/pk_im_sma_05.jpg" alt="">
+              </div>
+            </a>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <div class="swiper-pagination page_one">
+        <li class="swiper-pagination-bullet pointer"></li>
+        <li class="swiper-pagination-bullet pointer"></li>
+      </div>
+
+      <div class="swiper-pagination page_two">
+        <li class="swiper-pagination-bullet pointer"></li>
+        <li class="swiper-pagination-bullet pointer"></li>
+      </div>
+
+      <div class="swiper-pagination page_four">
+        <li class="swiper-pagination-bullet pointer"></li>
+        <li class="swiper-pagination-bullet pointer"></li>
+        <li class="swiper-pagination-bullet pointer"> </li>
+        <li class="swiper-pagination-bullet pointer"></li>
+      </div>
+      <!-- ----------------slider--------------------- -->
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="footer_content shop_wrapper">
+        <img class="footer_logo" src="images/logo_white.svg" alt="">
+        <!-- <a class="footer_logo"><img src="images/logo_white.svg" alt=""></a> -->
+        <ul>
+            <li>
+                <h3>-聯絡我們-</h3>
+            </li>
+            <li>Fountain Pen Kingdom(實體店鋪)</li>
+            <li>地址：台北市大安區復興南路一段390號15樓</li>
+            <li>電話：02-2631-6666</li>
+        </ul>
+        <ul>
+            <li>
+                <h3>-代理品牌-</h3>
+            </li>
+            <li>Lamy</li>
+            <li>Pilot</li>
+            <li>Parker</li>
+            <li>Pelican</li>
+        </ul>
+        <ul>
+            <li>
+                <h3>-客戶服務-</h3>
+            </li>
+            <li>Fountain Pen Kingdom(實體店鋪)</li>
+            <li>地址：台北市大安區復興南路一段390號15樓</li>
+            <li>電話：02-2631-6666</li>
+        </ul>
+    </div>
+    <div class="footer_declare">
+        <ul class="footer_icon">
+            <li><a href=""><img src="images/gplus_1.svg" alt=""></a></li>
+            <li><a href=""><img src="images/twitter_1.svg" alt=""></a></li>
+            <li><a href=""><img src="images/facebook_1.svg" alt=""></a></li>
+            <li><a href=""><img src="images/ig_1.svg" alt=""></a></li>
+            <li><a href=""><img src="images/plurk_1.svg" alt=""></a></li>
+        </ul>
+        <p>2020&copy;Fountain Pen Kingdom.Write Your own Style.</p>
+    </div>
+</footer>
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+  <!-- <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script> -->
+  <script src="jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.range.js"></script>
+  <script src=""></script>
+  <script src="js/product.js"></script>
+  <script src="js/jqueryui.js"></script>
+<script src="js/menu.js"></script>
+  <script>
+
+  </script>
+
+</body>
+
+</html>
